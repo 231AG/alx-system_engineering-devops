@@ -3,4 +3,5 @@
 1. script 1-listit display the contents list of your current directory
 2. script 2-bring_me_home this changes the working directory to the user home directory.
 3. script 3-listfiles display current directory contents in a long format 
-4. script 4-listmorefiles Display current directory including hidden files (starting with .). 
+4. script 4-listmorefiles Display current directory including hidden files (starting with .).
+4. script 5-listfilesdigitonly will display content in a long format with users and groud IDs displayed numberically 
