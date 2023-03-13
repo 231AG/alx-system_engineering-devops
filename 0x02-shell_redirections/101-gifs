@@ -1,0 +1,2 @@
+#!/bin/bash
+find . -type f -name "*.gif" -printf "%p\n" | sed -e 's/\.[Gg][Ii][Ff]$//' | sort -f | awk '{ print length, $0 }' | sort -n | cut -d' ' -f2-
