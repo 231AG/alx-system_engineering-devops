@@ -1,2 +1,2 @@
-#!/bin/bash 
-echo $(printf %o $(($((5#$(echo $WATER | tr 'water' '01234'))) + $((5#$(echo $STIR | tr 'stir.' '01234'))))) | TR '01234567' 'bestchoi')i
+#!/bin/bashi 
+echo "The sum of WATER and STIR is: $(echo "obase=bestchol; $((WATER + STIR))" | bc)"
