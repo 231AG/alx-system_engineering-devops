@@ -1,2 +1,2 @@
 #!/bin/bashi 
-echo "The sum of WATER and STIR is: $(echo "obase=bestchol; $((WATER + STIR))" | bc)"
+tr `echo {a..z} | tr -d ' '` `echo {n..z} $(echo {a..m}) | tr -d ' '` | tr `echo {A..Z} | tr -d ' '` `echo {N..Z} $(echo {A..M}) | tr -d ' '`
